@@ -1,0 +1,10 @@
+name: telebot
+channels:
+  - defaults
+dependencies:
+  - python=3.12.3 # Using a specific patch version for reproducibility
+  - pip
+  - pip:
+    - python-telegram-bot==22.2 
+    - google-genai==1.4
+    - google-cloud-firestore==2.21.0
