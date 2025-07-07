@@ -8,3 +8,4 @@ dependencies:
     - python-telegram-bot==22.2 
     - google-genai==1.4
     - google-cloud-firestore==2.21.0
+    - ruff==0.12.0
